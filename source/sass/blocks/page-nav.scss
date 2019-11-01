@@ -1,0 +1,42 @@
+.page-nav__link {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 300;
+  text-transform: uppercase;
+}
+
+.page-nav__signin-img {
+  padding: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.8);
+  border-radius: 50%;
+
+  svg {
+    display: block;
+    width: 20px;
+    height: 20px;
+    fill: rgba(255, 255, 255, 0.8);
+  }
+
+}
+
+@media (min-width: 576px) {
+
+}
+
+/* Средние девайсы («таблетки», >= 768px) */
+@media (min-width: 768px) {
+  .page-nav__link {
+    font-size: 1.2rem;
+  }
+}
+
+/* Большие девайсы (десктопы, >= 992px) */
+@media (min-width: 992px) {
+
+}
+
+/* Экстрабольшие девайсы (большие десктопы, >= 1200px) */
+@media (min-width: 1200px) {
+  .page-nav__link {
+    font-size: 1.3rem;
+  }
+}
