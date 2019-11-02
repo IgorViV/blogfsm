@@ -1,3 +1,7 @@
+.page-nav__item.active > .page-nav__link {
+    background-color: #397ac1;
+}
+
 .page-nav__link {
   font-family: "Open Sans", sans-serif;
   font-weight: 300;
@@ -18,6 +22,11 @@
 
 }
 
+.page-nav__signin-btn {
+  color: rgba(255, 255, 255, 0.8);
+  border-color: rgba(255, 255, 255, 0.8);
+}
+
 @media (min-width: 576px) {
 
 }
@@ -25,7 +34,7 @@
 /* Средние девайсы («таблетки», >= 768px) */
 @media (min-width: 768px) {
   .page-nav__link {
-    font-size: 1.2rem;
+    font-size: 1.0rem;
   }
 }
 
@@ -37,6 +46,6 @@
 /* Экстрабольшие девайсы (большие десктопы, >= 1200px) */
 @media (min-width: 1200px) {
   .page-nav__link {
-    font-size: 1.3rem;
+    font-size: 1.1rem;
   }
 }

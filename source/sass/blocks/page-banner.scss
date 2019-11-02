@@ -1,0 +1,96 @@
+.page-banner {
+  padding-top: 2.5rem;
+  padding-bottom: 2.5rem;
+  // font-family: "Helvetica Thin", sans-serif;
+  font-weight: 300;
+  text-align: center;
+  color: rgba(21, 35, 61, 0.8);
+  background-color: #ffffff;
+}
+
+.page-banner__title {
+  text-transform: uppercase;
+  font-weight: 300;
+  font-size: 2.0rem;
+  letter-spacing: 0.2em;
+}
+
+.page-banner__slogan {
+  position: relative;
+  padding-bottom: 1.5rem;
+  font-size: 1.0rem;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+
+.page-banner__slogan::after {
+  content: '';
+  position: absolute;
+  left: 3rem;
+  right: 3rem;
+  bottom: 0;
+  height: 6px;
+  background-color: #26d8c9;
+}
+
+.page-banner__intro {
+  padding-top: 0.5rem;
+  font-size: 1.0rem;
+}
+
+@media (min-width: 576px) {
+  .page-banner__title {
+    font-size: 2.5rem;
+  }
+
+  .page-banner__slogan {
+    font-size: 1.2rem;
+  }
+
+  .page-banner__intro {
+    font-size: 1.2rem;
+  }
+}
+
+/* Средние девайсы («таблетки», >= 768px) */
+@media (min-width: 768px) {
+  .page-banner__title {
+    font-size: 3.5rem;
+  }
+
+  .page-banner__slogan {
+    font-size: 2.0rem;
+  }
+}
+
+/* Большие девайсы (десктопы, >= 992px) */
+@media (min-width: 992px) {
+  .page-banner {
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+  }
+
+  .page-banner__title {
+    font-size: 4rem;
+  }
+
+  .page-banner__slogan {
+    padding-bottom: 1.8rem;
+  }
+
+  .page-banner__slogan::after {
+    left: 6rem;
+    right: 6rem;
+  }
+
+  .page-banner__intro {
+    font-size: 1.5rem;
+  }
+}
+
+/* Экстрабольшие девайсы (большие десктопы, >= 1200px) */
+@media (min-width: 1200px) {
+  .page-banner__title {
+    font-size: 4.5rem;
+  }
+}

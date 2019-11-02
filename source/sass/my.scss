@@ -31,6 +31,27 @@
   font-display: swap;
 }
 
+@font-face {
+  font-family: "Helvetica";
+  src: local("Helvetica CE Regular"),
+    local("HelveticaCE-Regular"),
+    url("../fonts/HelveticaCERegular.woff") format("woff"),
+    url("../fonts/HelveticaCERegular.woff2") format("woff2");
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Helvetica";
+  src: local("Helvetica CE Bold"),
+    local("HelveticaCE-Bold"),
+    url("../fonts/HelveticaCEBold.woff") format("woff"),
+    url("../fonts/HelveticaCEBold.woff2") format("woff2");
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+}
 
 @media (min-width: 576px) {
 
