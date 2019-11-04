@@ -1,0 +1,145 @@
+.page-footer {
+  color: #e4d8d5;
+  background-color: #15233d;
+  background-image: url(../img/bg-footer-grey.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.page-footer__row {
+  padding-top: 1rem;
+  background-color: rgba(0, 0, 0, 0.9);
+}
+
+.page-footer__logo-text {
+  font-size: 1.0rem;
+  text-transform: uppercase;
+}
+
+.page-footer__logo-icon {
+  width: 30px;
+  height: 30px;
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
+  fill: #e4d8d5;
+}
+
+.page-footer__logo-slogan {
+  margin-bottom: 1.5rem;
+  padding-top: 0;
+  font-size: 0.6rem;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+}
+
+.page-footer__nav-link {
+  font-size: 1.2rem;
+  color: rgba(228, 216, 213, 0.5);
+}
+
+.page-footer__nav-item.active {
+  .page-footer__nav-link {
+    background-color: rgba(57, 122, 193, 0.2);
+    border-radius: 5px;
+  }
+}
+
+.page-footer__nav-item:hover,
+.page-footer__nav-item:focus {
+  .page-footer__nav-link {
+    color: rgba(228, 216, 213, 0.8);
+    background-color: rgba(57, 122, 193, 0.7);
+    border-radius: 5px;
+  }
+}
+
+.page-footer__social-list {
+  margin-left: 0;
+  margin-right: 0;
+  padding-left: 0;
+  list-style: none;
+}
+
+.page-footer__social-item {
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.page-footer__social-link {
+  display: block;
+  padding: 5px;
+  background-color: rgba(100, 100, 100, 0.1);
+  border: 1px solid rgba(100, 100, 100, 0.2);
+}
+
+.page-footer__social-link:hover,
+.page-footer__social-link:focus {
+  background-color: rgba(100, 100, 100, 0.2);
+  border: 1px solid rgba(100, 100, 100, 0.3);
+}
+
+.page-footer__social-link--facebook:hover svg,
+.page-footer__social-link--facebook:focus svg {
+  fill: #3B5998;
+}
+
+.page-footer__social-link--twitter:hover svg,
+.page-footer__social-link--twitter:focus svg {
+  fill: #1DA1F2;
+}
+
+.page-footer__social-link--youtube:hover svg,
+.page-footer__social-link--youtube:focus svg {
+  fill: #ff0000;
+}
+
+.page-footer__copyright {
+  padding: 10px;
+  background-color: rgba(20, 20, 20, 0.9);
+}
+
+@media (min-width: 576px) {
+
+}
+
+/* Средние девайсы («таблетки», >= 768px) */
+@media (min-width: 768px) {
+  .page-footer__logo-text {
+    font-size: 1.2rem;
+  }
+
+  .page-footer__logo-icon {
+    width: 40px;
+    height: 40px;
+  }
+
+  .page-footer__logo-slogan {
+    font-size: 0.7rem;
+  }
+}
+
+/* Большие девайсы (десктопы, >= 992px) */
+@media (min-width: 992px) {
+  .page-footer__logo-text {
+    font-size: 1.5rem;
+  }
+
+  .page-footer__logo-icon {
+    width: 60px;
+    height: 60px;
+    margin-left: 0.8rem;
+    margin-right: 0.8rem;
+  }
+
+  .page-footer__logo-slogan {
+    font-size: 1.0rem;
+  }
+}
+
+/* Экстрабольшие девайсы (большие десктопы, >= 1200px) */
+@media (min-width: 1200px) {
+  .page-footer__logo-text {
+    font-size: 1.5rem;
+    letter-spacing: 0.2em;
+  }
+}
