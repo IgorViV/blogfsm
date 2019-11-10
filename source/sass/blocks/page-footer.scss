@@ -66,8 +66,12 @@
 }
 
 .page-footer__social-link {
-  display: block;
-  padding: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 44px;
+  height: 44px;
+  // padding: 5px;
   background-color: rgba(100, 100, 100, 0.1);
   border: 1px solid rgba(100, 100, 100, 0.2);
 }
@@ -83,9 +87,19 @@
   fill: #3B5998;
 }
 
-.page-footer__social-link--twitter:hover svg,
-.page-footer__social-link--twitter:focus svg {
-  fill: #1DA1F2;
+.page-footer__social-link--telegram:hover svg,
+.page-footer__social-link--telegram:focus svg {
+  fill: #0095DF;
+}
+
+.page-footer__social-link--vk:hover svg,
+.page-footer__social-link--vk:focus svg {
+  fill: #5181B8;
+}
+
+.page-footer__social-link--insta:hover svg,
+.page-footer__social-link--insta:focus svg {
+  fill: #CA007A;
 }
 
 .page-footer__social-link--youtube:hover svg,
