@@ -1,0 +1,64 @@
+.article {
+  margin-bottom: 1.5rem;
+  padding: 10px 15px;
+  background-color: rgba(255, 255, 255, 0.5);
+  box-shadow: 0 3px 10px 0 rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+}
+
+.article__title {
+  margin-bottom: 1rem;
+  font-size: 1.5rem;
+  color: #15233d;
+}
+
+.article__author {
+  font-weight: 700;
+  color: #15233d;
+}
+
+.article__views,
+.article__comments {
+  min-width: 50px;
+}
+
+.article__views {
+  margin-right: 1rem;
+}
+
+.article__dash,
+.article__date,
+.article__comments-count,
+.article__views-count {
+  color: rgba(33, 37, 41, 0.6);
+}
+
+.article__views-icon,
+.article__comments-icon {
+  fill: rgba(33, 37, 41, 0.6);
+}
+
+.article__comments-icon {
+  margin-top: 1px;
+}
+
+.article__text {
+  margin-bottom: 0px;
+}
+
+.article__link {
+  display: block;
+  width: 80px;
+  padding: 2px 5px;
+  margin-left: auto;
+  margin-right: 0;
+  text-align: center;
+}
+
+.article__link:hover,
+.article__link:focus {
+  text-decoration: none;
+  color: #ffffff;
+  background-color: rgba(57, 122, 193, 0.7);
+  border-radius: 3px;
+}

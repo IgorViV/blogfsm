@@ -29,7 +29,7 @@
   left: 3rem;
   right: 3rem;
   bottom: 0;
-  height: 6px;
+  height: 2px;
   background-color: #26d8c9;
 }
 
@@ -45,6 +45,10 @@
 
   .page-banner__slogan {
     font-size: 1.2rem;
+  }
+
+  .page-banner__slogan::after {
+    height: 6px;
   }
 
   .page-banner__intro {

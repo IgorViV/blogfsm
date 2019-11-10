@@ -1,0 +1,41 @@
+.section {
+  padding-top: 1rem;
+}
+
+.section__title {
+  display: inline-flex;
+  align-items: center;
+  margin-left: 15px;
+  margin-bottom: 1rem;
+}
+
+.section__title:hover,
+.section__title:focus {
+  text-decoration: none;
+
+  .section__title-text {
+    color: rgba(100, 168, 247, 1.0);
+  }
+
+  .section__title-icon {
+    fill: rgba(100, 168, 247, 1.0);
+  }
+}
+
+.section__title-text {
+  margin: 0;
+  font-size: 1.0rem;
+  text-transform: uppercase;
+  color: rgba(33, 106, 186, 1.0);
+}
+
+.section__title-icon {
+  width: 20px;
+  height: 20px;
+  margin-right: 1rem;
+  fill: rgba(33, 106, 186, 1.0);
+}
+
+.section__title-icon--entry {
+  // border: 1px solid rgba(33, 106, 186, 1.0);
+}
