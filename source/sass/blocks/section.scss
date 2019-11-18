@@ -3,14 +3,16 @@
 }
 
 .section__title {
-  display: inline-flex;
+  display: flex;
   align-items: center;
-  margin-left: 15px;
+  padding-left: 15px;
+  padding-bottom: 8px;
   margin-bottom: 1rem;
+  border-bottom: 1px solid rgba(38, 216, 201, 0.2);
 }
 
-.section__title:hover,
-.section__title:focus {
+a[href].section__title:hover,
+a[href].section__title:focus {
   text-decoration: none;
 
   .section__title-text {
