@@ -8,7 +8,7 @@
 
 .page-footer__row {
   padding-top: 1rem;
-  background-color: rgba(0, 0, 0, 0.9);
+  background-color: rgba(0, 0, 0, 0.7);
 }
 
 .page-footer__logo-text {
@@ -32,26 +32,43 @@
   text-transform: uppercase;
 }
 
-.page-footer__nav-link {
-  font-size: 1.2rem;
-  color: rgba(228, 216, 213, 0.5);
-}
+.page-footer__about-email,
+.page-footer__about-phone {
 
-.page-footer__nav-item.active {
-  .page-footer__nav-link {
-    background-color: rgba(57, 122, 193, 0.2);
-    border-radius: 5px;
+  span {
+    min-width: 80px;
+  }
+
+  a {
+    color: #67B0FF;
+    font-size: 1.0rem;
+  }
+
+  a:hover {
+    color: #226bba;
   }
 }
 
-.page-footer__nav-item:hover,
-.page-footer__nav-item:focus {
-  .page-footer__nav-link {
-    color: rgba(228, 216, 213, 0.8);
-    background-color: rgba(57, 122, 193, 0.7);
-    border-radius: 5px;
-  }
-}
+// .page-footer__nav-link {
+//   font-size: 1.2rem;
+//   color: rgba(228, 216, 213, 0.5);
+// }
+
+// .page-footer__nav-item.active {
+//   .page-footer__nav-link {
+//     background-color: rgba(57, 122, 193, 0.2);
+//     border-radius: 5px;
+//   }
+// }
+
+// .page-footer__nav-item:hover,
+// .page-footer__nav-item:focus {
+//   .page-footer__nav-link {
+//     color: rgba(228, 216, 213, 0.8);
+//     background-color: rgba(57, 122, 193, 0.7);
+//     border-radius: 5px;
+//   }
+// }
 
 .page-footer__social-list {
   margin-left: 0;
@@ -72,8 +89,8 @@
   width: 44px;
   height: 44px;
   // padding: 5px;
-  background-color: rgba(100, 100, 100, 0.1);
-  border: 1px solid rgba(100, 100, 100, 0.2);
+  background-color: rgba(100, 100, 100, 0.4);
+  border: 1px solid rgba(100, 100, 100, 0.5);
 }
 
 .page-footer__social-link:hover,
@@ -129,6 +146,14 @@
 
   .page-footer__logo-slogan {
     font-size: 0.7rem;
+  }
+
+  .page-footer__about-email,
+  .page-footer__about-phone {
+
+    a {
+      font-size: 1.2rem;
+    }
   }
 }
 
