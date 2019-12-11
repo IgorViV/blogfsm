@@ -1,23 +1,21 @@
-'use strict';
-
 // VIDEO
 
 function findVideos() {
-	let videos = document.querySelectorAll('.article__content-video');
+	var videos = document.querySelectorAll('.article__content-video');
 
-	for (let i = 0; i < videos.length; i++) {
+	for (var i = 0; i < videos.length; i++) {
 		setupVideo(videos[i]);
 	}
 }
 
 function setupVideo(video) {
-	let link = video.querySelector('.article__video-link');
-	let media = video.querySelector('.article__video-img');
-	let button = video.querySelector('.article__video-button');
-	let id = parseMediaURL(media);
+	var link = video.querySelector('.article__video-link');
+	var media = video.querySelector('.article__video-img');
+	var button = video.querySelector('.article__video-button');
+	var id = parseMediaURL(media);
 
-	video.addEventListener('click', () => {
-		let iframe = createIframe(id);
+	video.addEventListener('click', function() {
+		var iframe = createIframe(id);
 
 		link.remove();
 		button.remove();
@@ -29,15 +27,15 @@ function setupVideo(video) {
 }
 
 function parseMediaURL(media) {
-	let regexp = /https:\/\/i\.ytimg\.com\/vi\/([a-zA-Z0-9_-]+)\/maxresdefault\.jpg/i;
-	let url = media.src;
-	let match = url.match(regexp);
+	var regexp = /https:\/\/i\.ytimg\.com\/vi\/([a-zA-Z0-9_-]+)\/maxresdefault\.jpg/i;
+	var url = media.src;
+	var match = url.match(regexp);
 
 	return match[1];
 }
 
 function createIframe(id) {
-	let iframe = document.createElement('iframe');
+	var iframe = document.createElement('iframe');
 
 	iframe.setAttribute('allowfullscreen', '');
 	iframe.setAttribute('allow', 'autoplay');
@@ -48,7 +46,7 @@ function createIframe(id) {
 }
 
 function generateURL(id) {
-	let query = '?rel=0&showinfo=0&autoplay=1';
+	var query = '?rel=0&showinfo=0&autoplay=1';
 
 	return 'https://www.youtube.com/embed/' + id + query;
 }

@@ -20,4 +20,5 @@
 
   // импортируем свои js-файлы
   //= picturefill.js
-  //= my.js
+  //= video.js
+  //= form.js

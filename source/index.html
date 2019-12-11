@@ -79,16 +79,16 @@
                     </li>
                   </ul>
                   <form class="page-nav__signin form-inline my-2 my-lg-0">
-                    <span class="page-nav__signin-img mr-2">
-                      <svg width="20" height="20" viewBox="0 0 20 20">
+                    <button class="page-nav__signin-img btn btn-outline-light mr-2" type="button">
+                      <svg class="page-nav__signin-unregistered" width="20" height="20" viewBox="0 0 20 20">
                         <path d="M9.5 11c-3.033 0-5.5-2.467-5.5-5.5s2.467-5.5 5.5-5.5 5.5 2.467 5.5 5.5-2.467 5.5-5.5 5.5zM9.5 1c-2.481 0-4.5 2.019-4.5 4.5s2.019 4.5 4.5 4.5c2.481 0 4.5-2.019 4.5-4.5s-2.019-4.5-4.5-4.5z"></path>
                         <path d="M17.5 20h-16c-0.827 0-1.5-0.673-1.5-1.5 0-0.068 0.014-1.685 1.225-3.3 0.705-0.94 1.67-1.687 2.869-2.219 1.464-0.651 3.283-0.981 5.406-0.981s3.942 0.33 5.406 0.981c1.199 0.533 2.164 1.279 2.869 2.219 1.211 1.615 1.225 3.232 1.225 3.3 0 0.827-0.673 1.5-1.5 1.5zM9.5 13c-3.487 0-6.060 0.953-7.441 2.756-1.035 1.351-1.058 2.732-1.059 2.746 0 0.274 0.224 0.498 0.5 0.498h16c0.276 0 0.5-0.224 0.5-0.5-0-0.012-0.023-1.393-1.059-2.744-1.382-1.803-3.955-2.756-7.441-2.756z"></path>
                       </svg>
-                    </span>
-                    <button class="page-nav__signin-btn page-nav__signin-btn--out btn btn-outline-light my-2 my-sm-0 d-none" type="submit">
+                    </button>
+                    <button class="page-nav__signin-btn page-nav__signin-btn--out btn btn-outline-light my-2 my-sm-0 d-none" type="button">
                       Выйти
                     </button>
-                    <button class="page-nav__signin-btn page-nav__signin-btn--in btn btn-outline-light my-2 my-sm-0" type="submit">
+                    <button class="page-nav__signin-btn page-nav__signin-btn--in btn btn-outline-light my-2 my-sm-0" type="button" data-toggle="modal" data-target="#loginModal">
                       Войти
                     </button>
                   </form>
@@ -217,7 +217,7 @@
                 </article>
               </section>
               <section class="page-content__section section">
-                <a class="section__title" href="pages/videos/videos.html">
+                <a class="section__title" href="pages/videos/videos.html" title="Все видеоуроки">
                   <svg class="section__title-icon" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="20" height="20" viewBox="0 0 20 20">
                     <path d="M7.5 15c-0.076 0-0.153-0.017-0.224-0.053-0.169-0.085-0.276-0.258-0.276-0.447v-9c0-0.189 0.107-0.363 0.276-0.447s0.372-0.066 0.524 0.047l6 4.5c0.126 0.094 0.2 0.243 0.2 0.4s-0.074 0.306-0.2 0.4l-6 4.5c-0.088 0.066-0.194 0.1-0.3 0.1zM8 6.5v7l4.667-3.5-4.667-3.5z"></path>
                     <path d="M19.5 2h-19c-0.276 0-0.5 0.224-0.5 0.5v15c0 0.276 0.224 0.5 0.5 0.5h19c0.276 0 0.5-0.224 0.5-0.5v-15c0-0.276-0.224-0.5-0.5-0.5zM3 11h-2v-2h2v2zM3 8h-2v-2h2v2zM1 12h2v2h-2v-2zM4 3h12v14h-12v-14zM17 9h2v2h-2v-2zM17 8v-2h2v2h-2zM17 12h2v2h-2v-2zM19 5h-2v-2h2v2zM3 3v2h-2v-2h2zM1 15h2v2h-2v-2zM17 17v-2h2v2h-2z"></path>
@@ -330,7 +330,7 @@
             </main>
             <aside class="page-aside col-md-4">
               <section class="page-content__section section">
-                <a class="section__title" href="#">
+                <a class="section__title">
                   <svg class="section__title-icon" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="20" height="20" viewBox="0 0 20 20">
                     <path d="M15.5 19c-0.082 0-0.164-0.020-0.239-0.061l-5.261-2.869-5.261 2.869c-0.168 0.092-0.373 0.079-0.529-0.032s-0.235-0.301-0.203-0.49l0.958-5.746-3.818-3.818c-0.132-0.132-0.18-0.328-0.123-0.506s0.209-0.31 0.394-0.341l5.749-0.958 2.386-4.772c0.085-0.169 0.258-0.276 0.447-0.276s0.363 0.107 0.447 0.276l2.386 4.772 5.749 0.958c0.185 0.031 0.337 0.162 0.394 0.341s0.010 0.374-0.123 0.506l-3.818 3.818 0.958 5.746c0.031 0.189-0.048 0.379-0.203 0.49-0.086 0.061-0.188 0.093-0.29 0.093zM10 15c0.082 0 0.165 0.020 0.239 0.061l4.599 2.508-0.831-4.987c-0.027-0.159 0.025-0.322 0.14-0.436l3.313-3.313-5.042-0.84c-0.158-0.026-0.293-0.127-0.365-0.27l-2.053-4.106-2.053 4.106c-0.072 0.143-0.207 0.243-0.365 0.27l-5.042 0.84 3.313 3.313c0.114 0.114 0.166 0.276 0.14 0.436l-0.831 4.987 4.599-2.508c0.075-0.041 0.157-0.061 0.239-0.061z"></path>
                   </svg>
@@ -452,6 +452,46 @@
         </footer>
       </div>
     </div>
+    <!-- Modal sign in -->
+      <div class="modal fade" id="loginModal" tabindex="-1" role="dialog" aria-labelledby="loginModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="loginModalLabel">Вход</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              <form class="needs-validation" novalidate>
+                <div class="form-group">
+                  <label for="user-email" class="col-form-label">Адрес электронной почты:</label>
+                  <input type="email" class="form-control" id="user-email" placeholder="name@example.com" required>
+                  <div class="invalid-feedback">
+                    Пожалуйста введите действительный адрес электронной почты
+                  </div>
+                </div>
+                <div class="form-group">
+                  <label for="user-password" class="col-form-label">Пароль:</label>
+                  <input type="password" class="form-control" id="user-password" placeholder="Пароль" required>
+                  <div class="invalid-feedback">
+                    Пожалуйста введите пароль
+                  </div>
+                </div>
+                <button type="submit" class="btn btn-primary col-12">Войти</button>
+              </form>
+            </div>
+            <div class="modal-footer d-flex justify-content-center">
+              <a href="">Регистрация</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    <!-- End Modal sign in -->
+
+    <!-- Modal sign up -->
+
+    <!-- End modal sign up -->
     <script src="js/main.js"></script>
   </body>
 </html>
